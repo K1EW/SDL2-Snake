@@ -241,6 +241,8 @@ void grow_snake() {
         new_chunk->next = NULL;
         tail->next = new_chunk;
         tail = new_chunk;
+
+        snake_length++;
     }
 }
 
